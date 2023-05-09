@@ -28,9 +28,11 @@ Note the additions to the Llayla character in the characters folder, showing how
 
 6. Open the `cmd` file that came with the one-click installer
 
-7. Install discord.py with `pip install discord`
-
-8. Run the bot with `python bot.py`
+    a. Install discord.py with `pip install discord`
+    
+    b. `cd text-generation-webui`
+    
+    c. Run the bot with `python bot.py --chat --model-menu --wbits 4 --groupsize 128 --model_type llama`(adjust the settings as needed)
 
 Note: For ease of use `bot.py` supports all `server.py` model-related command line arguments. For example, `python bot.py --model llama-7b-hf` is a valid way to start the bot.
 
